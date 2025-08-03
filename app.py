@@ -742,10 +742,10 @@ def procesar_archivo(file_path, tipo_esperado=None):
 
 def main():
     st.set_page_config(
-        page_title="Procesador de Movimientos IVA", page_icon="📊", layout="wide"
+        page_title="Archivos CSV IVA Simple", page_icon="📊", layout="wide"
     )
 
-    st.title("📊 Procesador de Movimientos IVA")
+    st.title("📊 Archivos CSV IVA Simple")
     st.markdown("---")
 
     # Selección del tipo de archivo
